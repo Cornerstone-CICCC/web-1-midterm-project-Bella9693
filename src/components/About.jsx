@@ -13,13 +13,15 @@ const About = () => {
         </h1>
         <div className="about__text">
           <p className="text">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum
-            aut ducimus ipsum quo aliquam, veritatis ipsa quos ullam?
-            Necessitatibus odio hic voluptate sed illo amet cum praesentium iure
-            dicta laboriosam sequi, officia earum commodi. Laboriosam omnis
-            aspernatur voluptate officia magni aperiam exercitationem obcaecati
-            vero sequi, cupiditate impedit ut! Illum officia recusandae saepe
-            beatae minus rem?
+            I studied Police Administration, where I developed strong analytical
+            and logical thinking skills. While exploring other interests, I
+            became fascinated by front-end development—especially the structure
+            and clarity of markup languages like HTML and CSS. What began as
+            curiosity turned into passion. I enjoy building responsive,
+            interactive interfaces and am currently focusing on strengthening my
+            skills in HTML, CSS, JavaScript, and React. Although I don’t have UX
+            experience yet, I’m eager to learn and grow into a developer who
+            writes clean code and creates meaningful web experiences.
           </p>
         </div>
       </div>
