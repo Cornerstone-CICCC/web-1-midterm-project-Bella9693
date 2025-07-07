@@ -3,7 +3,7 @@
   margin-top: 30vh;
 }
 .port__inner {
-  padding: 0 30px;
+  padding: 30px;
   justify-content: center;
 
   .port__title {
@@ -14,7 +14,6 @@
     text-decoration: underline;
     text-underline-offset: 8px;
     color: var(--white);
-    text-align: center;
 
     @media (max-width: 800px) {
       font-size: 2.2rem;
@@ -71,13 +70,17 @@
         }
       }
       .title {
-        font-size: 1.5rem;
-        text-align: center;
-        padding: 0.8rem 0;
+        font-size: 1.8rem;
+        padding: 7px 0;
         font-weight: 700;
         color: var(--black100);
         border-bottom: 2px solid var(--black100);
         margin-bottom: 1rem;
+        text-align: center;
+
+        @media (max-width: 800px) {
+          font-size: 1.3rem;
+        }
       }
       .desc {
         font-size: 1rem;

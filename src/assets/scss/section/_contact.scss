@@ -1,6 +1,4 @@
 #contact {
-  height: 100%;
-  margin-top: 52vh;
   color: var(--white);
 }
 
@@ -8,6 +6,7 @@
   width: 80%;
   margin: 0 auto;
   text-align: center;
+  padding-top: 150px;
 
   .contact__title {
     font-size: 3rem;
@@ -19,6 +18,43 @@
 
     @media (max-width: 800px) {
       font-size: 3rem;
+    }
+  }
+
+  .contact__intro {
+    font-family: var(--mainKor-font);
+    font-size: 1.5rem;
+  }
+
+  .contact__img {
+    ul {
+      @include flex-center;
+      gap: 40px;
+      list-style: none;
+      padding: 150px 0 52px 0;
+      margin: 0;
+
+      li {
+        div {
+          width: 100px;
+          height: 100px;
+          border: 1px solid var(--white);
+          border-radius: 50%;
+          @include flex-center;
+          transition: transform 0.3s ease;
+
+          &:hover {
+            transform: scale(1.1);
+          }
+
+          img {
+            width: 50%;
+            height: auto;
+            filter: brightness(0) saturate(100%) invert(70%) sepia(25%)
+              saturate(370%) hue-rotate(90deg);
+          }
+        }
+      }
     }
   }
 }
