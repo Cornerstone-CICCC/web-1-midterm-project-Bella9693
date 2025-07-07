@@ -1,0 +1,15 @@
+#footer {
+  font-family: var(--mainKor-font);
+  color: var(--white);
+}
+
+.footer__inner {
+  padding: 30px;
+
+  .footer__right {
+    text-align: center;
+    text-align: uppercase;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+}

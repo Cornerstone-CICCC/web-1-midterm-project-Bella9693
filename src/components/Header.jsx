@@ -18,8 +18,8 @@ const headerNav = [
     url: "#skills",
   },
   {
-    title: "career",
-    url: "#career",
+    title: "contact",
+    url: "#contact",
   },
 ];
 

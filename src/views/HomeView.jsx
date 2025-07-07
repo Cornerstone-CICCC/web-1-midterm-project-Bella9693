@@ -7,7 +7,6 @@ import Main from "../components/Main";
 import About from "../components/About";
 import Skills from "../components/Skills";
 import Home from "../components/Home";
-import Career from "../components/Career";
 
 const HomeView = () => {
   return (
@@ -18,7 +17,6 @@ const HomeView = () => {
         <About />
         <Pro />
         <Skills />
-        <Career />
         <Contact />
       </Main>
       <Footer />

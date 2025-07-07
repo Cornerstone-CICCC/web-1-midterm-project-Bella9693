@@ -1,0 +1,24 @@
+#contact {
+  height: 100%;
+  margin-top: 52vh;
+  color: var(--white);
+}
+
+.contact__inner {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+
+  .contact__title {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+
+    @media (max-width: 800px) {
+      font-size: 3rem;
+    }
+  }
+}
